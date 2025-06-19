@@ -294,8 +294,8 @@
 
 ## Screenshot
 
-![partita](client/app/public/images/screenshot/partita.png)
-![partita](client/app/public/images/screenshot/cronologia.png)
+![partita](client/public/images/screenshot/partita.png)
+![partita](client/public/images/screenshot/cronologia.png)
 
 ## Users Credentials
 
