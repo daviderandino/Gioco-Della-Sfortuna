@@ -1,0 +1,169 @@
+.homepage-container.modern-look {
+  max-width: 650px;
+  margin: 50px auto; 
+  padding: 35px 45px;
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  color: #343a40;
+}
+
+.homepage-header {
+  margin-bottom: 40px;
+}
+
+.homepage-header h1 {
+  font-size: 2.2em;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.homepage-header p {
+  font-size: 1.15em;
+  color: #5a6268;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.homepage-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px; 
+  margin-top: 60px; 
+  margin-bottom: 40px; 
+}
+
+.button-link.modern-button {
+  min-width: 280px;
+  padding: 12px 25px;
+  font-size: 1.05em;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  color: white !important;
+}
+.button-link.modern-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.button-link.modern-button.primary-action {
+  background-color: #007bff;
+}
+.button-link.modern-button.primary-action:hover {
+  background-color: #0056b3;
+}
+
+.homepage-actions .button-link.modern-button:not(.primary-action):not(.danger) {
+  background-color: #17a2b8;
+}
+.homepage-actions .button-link.modern-button:not(.primary-action):not(.danger):hover {
+  background-color: #138496;
+}
+
+.homepage-footer-links {
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 1px solid #e9ecef;
+  font-size: 0.9em;
+}
+
+.homepage-container.modern-look {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 35px 45px;
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  color: #343a40;
+}
+
+.homepage-header {
+  margin-bottom: 40px;
+}
+
+.homepage-header h1 {
+  font-size: 2.2em;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.homepage-header p {
+  font-size: 1.15em;
+  color: #5a6268;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.homepage-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.button-link.modern-button {
+  min-width: 280px;
+  padding: 12px 25px;
+  font-size: 1.05em;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  color: white !important;
+}
+.button-link.modern-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.button-link.modern-button.primary-action {
+  background-color: #007bff;
+}
+.button-link.modern-button.primary-action:hover {
+  background-color: #0056b3;
+}
+
+.homepage-actions .button-link.modern-button:not(.primary-action):not(.danger) {
+  background-color: #6b7280;
+}
+.homepage-actions .button-link.modern-button:not(.primary-action):not(.danger):hover {
+  background-color: #464b58;
+}
+
+.homepage-footer-links {
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 1px solid #e9ecef;
+  font-size: 0.9em;
+}
+
+.homepage-footer-links .text-link {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 12px;
+  transition: color 0.2s ease;
+}
+
+.homepage-footer-links .text-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.homepage-footer-links .link-separator {
+  color: #ced4da;
+}

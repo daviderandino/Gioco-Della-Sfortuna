@@ -1,0 +1,65 @@
+.demo-page.modern-look {
+  max-width: 1200px;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.modern-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modern-header h1 {
+  font-size: 2em;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.modern-header p {
+  font-size: 1.1em;
+  color: #5a6268;
+}
+
+.button-link.modern-button {
+  background-color: #007bff;
+  color: white !important;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 5px 8px;
+  font-size: 0.95em;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button-link.modern-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.button-link.modern-button.secondary {
+  background-color: #6c757d;
+}
+
+.button-link.modern-button.secondary:hover {
+  background-color: #545b62;
+}
+
+.error-view h2 {
+    color: #842029;
+}
+
+.error-view p {
+    font-size: 1.1em;
+    margin: 20px 0;
+}

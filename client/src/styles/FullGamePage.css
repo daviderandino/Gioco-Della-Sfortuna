@@ -1,0 +1,78 @@
+.full-game-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  background-color: #eef2f7;
+  color: #343a40;
+} 
+
+.full-game-container .demo-page.modern-look {
+  max-width: 1200px;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+} 
+
+.full-game-container .modern-header {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.full-game-container .modern-header h1 {
+  font-size: 1.8em;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 8px;
+} 
+
+.full-game-container .game-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.2rem;
+    color: #495057;
+    margin-top: 1rem;
+} 
+
+.full-game-container .button-link.modern-button {
+  background-color: #007bff;
+  color: white !important;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 5px 8px;
+  font-size: 0.95em;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+} 
+
+.full-game-container .button-link.modern-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.full-game-container .button-link.modern-button.secondary {
+  background-color: #6c757d;
+}
+
+.full-game-container .button-link.modern-button.secondary:hover {
+  background-color: #545b62;
+} 
+
+@keyframes fadeInScale {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

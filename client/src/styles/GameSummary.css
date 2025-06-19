@@ -1,0 +1,92 @@
+.summary-view {
+  text-align: center;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.summary-view h2 {
+  font-size: 1.9em;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.summary-view h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: #343a40;
+  font-weight: 500;
+}
+
+.summary-view .round-result-message {
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 12px 18px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.summary-view .round-result-message.win {
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border: 1px solid #badbcc;
+}
+
+.summary-view .round-result-message.loss {
+  color: #842029;
+  background-color: #f8d7da;
+  border: 1px solid #f5c2c7;
+}
+
+.summary-view .cards-grid.summary-cards-horizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  overflow-x: auto;
+  padding: 20px 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  min-height: 240px;
+  align-items: stretch;
+}
+
+.summary-view .card-display.summary-card {
+  background-color: #ffffff;
+  padding: 10px; 
+  border-radius: 8px; 
+  flex-shrink: 0;
+  width: 140px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.summary-view .card-display.summary-card p {
+    font-size: 0.9em;
+    margin: 5px 0 0 0;
+}
+
+.summary-view .card-display.summary-card p:last-of-type {
+  margin-top: auto;
+}
+
+.summary-view .card-display.summary-card img {
+  width: 100%; 
+  height: auto;  
+  aspect-ratio: 1; 
+  object-fit: cover;
+  border-radius: 6px; 
+}
+
+.summary-view .summary-actions {
+  margin-top: 30px;
+}

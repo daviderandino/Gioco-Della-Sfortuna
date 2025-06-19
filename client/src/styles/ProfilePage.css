@@ -1,0 +1,31 @@
+.profile-page.modern-look {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.profile-header {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.history-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cronologia-vuota {
+  text-align: center;
+  width: 100%;
+}
+
+.profile-header .modern-button {
+  padding: 0.4rem 0rem; 
+  font-size: 0.9em;
+  align-self: center;
+}
