@@ -1,5 +1,11 @@
-# Exam #1: "GiocoSfortuna"
-## Student: s346257 Randino Davide
+Developed a full stack web application game using JavaScript throughout the stack, designed with a security-first approach and zero trust towards the client.
+
+- Frontend: Built with React, delivering a responsive and dynamic user interface for a seamless user experience.
+- Backend: Developed with Node.js and Express, structured as RESTful APIs to ensure clean separation of concerns and scalable architecture.
+- Authentication & Security: Implemented secure authentication and authorization flows using Passport.js, with session management and password hashing. All sensitive operations and authorization checks are enforced server-side, following a zero trust model—never relying on client-side validation for critical decisions.
+- Database: Integrated SQLite as a lightweight, file-based relational database for persistent user and application data storage.
+Key Features: Secure user management, protected routes, robust error handling, data validation and authorization strictly handled on the server side, and persistent data storage.
+This project is an end-to-end example of a modern full stack application, combining a responsive frontend, a secure and modular backend, and a lightweight but effective persistence layer, with a strong focus on security and data integrity.
 
 ## React Client Application Routes
 
