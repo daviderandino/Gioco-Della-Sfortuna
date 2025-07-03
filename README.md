@@ -7,6 +7,12 @@ Developed a full stack web application game using JavaScript throughout the stac
 Key Features: Secure user management, protected routes, robust error handling, data validation and authorization strictly handled on the server side, and persistent data storage.
 This project is an end-to-end example of a modern full stack application, combining a responsive frontend, a secure and modular backend, and a lightweight but effective persistence layer, with a strong focus on security and data integrity.
 
+## HOW TO TRY
+- git clone ...
+- cd server -> npm install -> nodemon index.mjs
+- cd client -> npm install -> npm run dev
+
+
 ## React Client Application Routes
 
 - Route `/`: Rotta di default, reindirizza a /home o /login in base allo stato di login.
